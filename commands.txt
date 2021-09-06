@@ -18,7 +18,23 @@
 5 - Generate requirements.txt
     pip3 freeze > requirements.txt  
 6 - Github repo
+    git init   
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/dmstyx/ddah.git
+    git push -u origin main 
+    git status    
+    git add .     
+    git commit -m "added config files"
+    git push
+
 7 - Create app on heroku
+    Create app
+    
+    
 8 - create DB on heroku
+    database
+    settings.py 
+    
 9 - Adjust settings for Posgres DB
 10- Adjust settings for static files
