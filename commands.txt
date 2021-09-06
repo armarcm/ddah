@@ -1,0 +1,24 @@
+1 - venv 
+    python3 -m venv venv
+    source venv/bin/activate 
+    pip3 install django
+    make project
+    django-admin startproject ddah
+2 - Install additional packages
+  - psycopg2
+    gunicorn
+    django-heroku
+    whitenoise
+    pip3 install psycopg2 gunicorn django-heroku whitenoise
+3 - create runtime.txt
+    python-3.7.9
+4 - Procfile
+    release
+    web
+5 - Generate requirements.txt
+    pip3 freeze > requirements.txt  
+6 - Github repo
+7 - Create app on heroku
+8 - create DB on heroku
+9 - Adjust settings for Posgres DB
+10- Adjust settings for static files
