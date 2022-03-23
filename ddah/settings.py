@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-5!p&p=at70&ym_b=%xjskmn$s%2ss@r*lm+8sig(wl97k#qxvm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ddah1.herokuapp.com']
+ALLOWED_HOSTS = ['ddah1-armar.herokuapp.com']
 
 
 # Application definition
@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'ddah.wsgi.application'
 DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'dfu0v302pn0477',
-            'USER': 'vjegxdhqjjrpqm',
-            'PASSWORD': '3e97e7429fbde83257926fdc335d19541bc0a0dec0089fbe9c8f8224714d2584',
-            'HOST': 'ec2-54-73-152-36.eu-west-1.compute.amazonaws.com',
+            'NAME': 'd2blpi8baknjqn',
+            'USER': 'rtilvobjnnznfk',
+            'PASSWORD': '6b2cfc77ee0ba61fe5f2dc0b5ffe4dceb9b11079676844f39bd3a8dec289ae18',
+            'HOST': 'ec2-18-215-96-22.compute-1.amazonaws.com',
             'PORT': '5432',
         }
     }
@@ -115,9 +115,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Sao_Paulo'
 
 USE_I18N = True
 
